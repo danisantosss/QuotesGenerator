@@ -17,7 +17,7 @@ public class App {
             System.out.print("Option: ");
             
             int heroChoice = scanner.nextInt();
-            scanner.nextLine(); // Clear the buffer
+            scanner.nextLine();
             
             if (heroChoice == 5) {
                 System.out.println("Exiting...");
@@ -25,7 +25,6 @@ public class App {
             }
             
             if (heroChoice == 4) {
-                // Manage my quotes section
                 while (true) {
                     System.out.println("\nMy quotes:");
                     System.out.println("1. Show my quotes");
@@ -36,9 +35,9 @@ public class App {
                     System.out.print("Choose an action: ");
                     
                     int action = scanner.nextInt();
-                    scanner.nextLine(); // Clear the buffer
+                    scanner.nextLine();
                     
-                    List<String> myQuotes = quotes.getMyQuotes(); // Initialize myQuotes here
+                    List<String> myQuotes = quotes.getMyQuotes();
                     
                     switch (action) {
                         case 1:
@@ -55,7 +54,7 @@ public class App {
                         case 3:
                             System.out.print("Enter the number of the quote you want to edit: ");
                             int editIndex = scanner.nextInt() - 1;
-                            scanner.nextLine(); // Clear the buffer
+                            scanner.nextLine();
                             if (editIndex >= 0 && editIndex < myQuotes.size()) {
                                 System.out.print("Enter the new quote: ");
                                 String editedQuote = scanner.nextLine();
@@ -68,7 +67,7 @@ public class App {
                         case 4:
                             System.out.print("Enter the number of the quote you want to delete: ");
                             int deleteIndex = scanner.nextInt() - 1;
-                            scanner.nextLine(); // Clear the buffer
+                            scanner.nextLine();
                             if (deleteIndex >= 0 && deleteIndex < myQuotes.size()) {
                                 quotes.deleteMyQuote(deleteIndex);
                                 System.out.println("Quote deleted!");

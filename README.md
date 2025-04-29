@@ -1,5 +1,3 @@
-# Enter here the requeriments for the project my fellow paluskis
-
 ## Requisitos
 
 Requisitos Funcionais
@@ -21,28 +19,30 @@ Objetivo: Verificar se o sistema replica corretamente uma frase inserida pelo us
 
 Passos:
 
-1. Abrir o aplicativo ou página.
+1. Rodar o sistema.
 
-2. Digitar a frase "Eu sou o Homem de Ferro".
+2. Escolher a opção de criar citação.
 
-3. Clicar no botão "Replicar Frase".
+3. Digitar a frase "Eu sou o Homem de Ferro".
+
+4. Pressionar Enter para confirmar.
 
 Resultado Esperado:
 
 A frase "Eu sou o Homem de Ferro" aparece exatamente como foi digitada.
 
 <h3>Caso de Teste 2</h3>
-Objetivo: Garantir que o sistema replica frases com pontuação, acentos e símbolos corretamente.
+Objetivo: Fazer com que o sistema gere uma citação de um determinado herói.
 
 Passos:
 
-1. Digitar a frase "Vingadores, assemble!".
+1. Rodar o sistema.
 
-2. Clicar no botão "Replicar Frase".
+2. Escolher a opção de exibir citação e escolher um herói, por exemplo o homem-aranha.
 
 Resultado Esperado:
 
-A frase "Vingadores, assemble!" aparece com todos os caracteres especiais corretos.
+A frase "With great power comes great responsibility!" aparece no sistema.
 
 <h3>Caso de Teste 3</h3>
 Objetivo: Verificar como o sistema se comporta ao tentar replicar uma frase em branco.
@@ -51,8 +51,8 @@ Passos:
 
 1. Deixar o campo de entrada vazio.
 
-2. Clicar no botão "Replicar Frase".
+2. Pressionar Enter para confirmar.
 
 Resultado Esperado:
 
-O sistema deve exibir uma mensagem de erro ("Digite uma frase para replicar") ou simplesmente não realizar nenhuma ação.
+O sistema deve exibir uma mensagem de erro ou simplesmente não realizar nenhuma ação.

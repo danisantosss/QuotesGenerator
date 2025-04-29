@@ -1,7 +1,22 @@
 # Enter here the requeriments for the project my fellow paluskis
 
-<h2>Casos de Teste</h2>
+## Requisitos
+
+Requisitos Funcionais
+- RF01: O sistema deve permitir visualizar frases pré-criadas;
+- RF02: O sistema deve permitir criar as frases de cada usuário;
+- RF03: O sistema deve permitir visualizar frases criadas pelo usuário;
+- RF04: O sistema deve permitir editar frases criadas pelo usuário;
+- RF05: O sistema deve permitir excluir frases criadas pelo usuário;
+
+Requisitos Não Funcionais
+- RNF01: O sistema deve ser intuitivo
+- RNF02: O sistema deve retornar a mensagem em no máximo 3 segundos
+
+## Casos de Teste
+
 <h3>Caso de Teste 1</h3>
+
 Objetivo: Verificar se o sistema replica corretamente uma frase inserida pelo usuário.
 
 Passos:
